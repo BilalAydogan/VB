@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VB.Business</RootNamespace>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VB.DataAccess\VB.DataAccess.vbproj" />
+    <ProjectReference Include="..\VB.Entity\VB.Entity.vbproj" />
+  </ItemGroup>
+
+</Project>
